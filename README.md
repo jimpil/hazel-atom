@@ -5,6 +5,7 @@ A distributed atom-like type for Clojure, on top of `Hazelcast 4` (see `com.haze
 implementing `IAtom`, `IAtom2`, `IDeref`, `IReference`, `IMeta` and `Closeable`.
 
 ## Where
+[![Clojars Project](https://clojars.org/hazel-atom/latest-version.svg)](https://clojars.org/hazel-atom)
 
 
 ## How
