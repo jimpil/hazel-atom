@@ -15,4 +15,6 @@
                   ["vcs" "commit"]
                   ["vcs" "push"]
                   ]
+  :deploy-repositories [["releases" :clojars]] ;; lein release :patch
+  :signing {:gpg-key "jimpil1985@gmail.com"}
   )
