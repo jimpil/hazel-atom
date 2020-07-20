@@ -6,7 +6,7 @@
   :dependencies [[com.hazelcast/hazelcast "4.0.2"]]
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.10.1"]]}}
   :repl-options {:init-ns hazel-atom.core}
-  :release-tasks [["vcs" "assert-committed"]
+  :release-tasks [;["vcs" "assert-committed"]
                   ["change" "version" "leiningen.release/bump-version" "release"]
                   ["vcs" "commit"]
                   ["vcs" "tag" "--no-sign"]
