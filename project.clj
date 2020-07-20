@@ -1,4 +1,4 @@
-(defproject hazel-atom "0.1.4"
+(defproject hazel-atom "0.1.5-SNAPSHOT"
   :description "A distributed atom type for Clojure, on top of Hazelcast 4."
   :url "https://github.com/jimpil/hazel-atom"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
